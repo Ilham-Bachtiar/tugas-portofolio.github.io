@@ -1,0 +1,147 @@
+* {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(img/wallpapers.jpg);
+}
+header {
+  height: 70px;
+}
+header h1 {
+  display: inline-block;
+  padding: 15px 24px;
+  text-transform: uppercase;
+}
+header h1 a {
+  font-family: "Merienda One", cursive;
+  color: aliceblue;
+  transition: 0.3s;
+}
+header h1 a:hover {
+  color: rgb(250, 133, 0);
+}
+header ul {
+  float: right;
+}
+header ul li a {
+  display: inline-block;
+  color: white;
+  transition: 0.3s;
+  font-family: "Acme", sans-serif;
+  font-size: 18px;
+}
+header ul li a:hover {
+  color: rgb(255, 94, 0);
+}
+header ul li {
+  padding: 24px;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.about h2 {
+  font-size: 20px;
+  margin-bottom: 35px;
+  text-align: center;
+  margin-top: 50px;
+}
+.about h3 {
+  font-size: 19px;
+}
+.container {
+  height: 540px;
+  margin: 0 auto;
+}
+header .container h1 {
+  text-align: center;
+}
+
+.about {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 174px;
+  font-family: sans-serif;
+}
+
+.team .card-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  gap: 0.2rem;
+}
+.team h2 {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 150px;
+}
+.team .card {
+  border-radius: 15px;
+  overflow: hidden;
+  border: 2rem;
+  padding: 0 10px;
+  margin-top: 2px;
+  background-color: black;
+  opacity: 0.9;
+  margin-right: 18px;
+  margin-left: 18px;
+}
+.team h3 {
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 20px;
+  font-family: "Acme", sans-serif;
+  margin-left: 25px;
+}
+.team h5 {
+  margin-top: 50px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  font-family: "Bree Serif", serif;
+}
+.team p {
+  margin-top: 120px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.card img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 170px;
+}
+.contact {
+  margin-top: 120px;
+  text-align: center;
+  color: white;
+}
+.contact form .mb-3 label {
+  font-size: 18px;
+}
+#contact .form-control {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 12px;
+  margin-bottom: 3px;
+}
+#contact h2 {
+  margin-bottom: 18px;
+}
+button {
+  margin-top: 12px;
+  text-align: center;
+  width: 85px;
+  color: black;
+  background-color: orangered;
+  font-family: "Acme", sans-serif;
+}
